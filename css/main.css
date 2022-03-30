@@ -76,3 +76,32 @@ p
 {
     max-width: 50%;
 }
+
+.mainFooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #313131;
+    max-width: 100%;
+}
+
+.footerNav ul
+{
+    max-width: 100%;
+}
+
+.footerNav ul li a
+{
+    text-decoration: none;
+    color: #FFF8F3;
+}
+
+@media only screen and (max-width:448px) 
+{
+    .sitecontainer
+    {
+        max-width: 1024px;
+    }
+    
+}
