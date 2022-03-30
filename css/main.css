@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.hidden 
+{
+    display: none;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+p
+{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.logo
+{
+    padding: 10px;
+    width: 9%;
+}
+
+.mainNavbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 30px #0000000D;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.mainNavbar ul li
+{
+    flex-wrap: nowrap;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: 20px;
+    padding: 10px;
+}
+
+.mainNavbar ul li a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.mainNavbar ul li a:hover
+{
+    font-weight: bold;
+    transition: 1s;
+}
+
+#hamburgerMenu
+{
+    padding: 20px;
+    justify-content: center;
+    width: 4%;
+    height: 4%;
+    display: none;
+}
+
+.hero
+{
+    background-color: #FE5000;
+    max-width: 100%;
+    block-size: auto;  
+}
+
+.hero img
+{
+    max-width: 50%;
+}
