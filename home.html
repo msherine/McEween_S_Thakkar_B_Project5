@@ -18,22 +18,29 @@
   <body>
     <h1 class="hidden">HomePage</h1>
     <div class="sitecontainer">
-        <header class="mainHeader">
-            <nav class="mainNavbar">
-                <div class="logo"><img src="images/black_logo.png" alt="Hawaiian Tropic Logo">
-                </div>
-                <h2 class="hidden"> Main Nav </h2>
-                <ul>
-                    <li><a href="home.html"></a>Home</li>
-                    <li><a href="lotions.html"></a>Lotions</li>
-                    <li><a href="locateUs.html"></a>Locate Us</li>
-                    <li><a href="contactUs.html"></a>Contact Us</li>
-                </ul>
-                <img id="hamburgerMenu" src="images/hamburger_menu.png" alt="hamburger menu">
-            </nav>
-        </header>
-        <section class="hero">
-          <h2 class="hidden">Hero Image</h2>
+      <!-- Main nav start -->
+      <header class="mainHeader">
+        <nav class="mainNavbar">
+            <div class="logo">
+              <img src="images/black_logo.png" alt="Hawaiian Tropic Logo">
+            </div>
+            <h2 class="hidden"> Main Nav </h2>
+            <ul>
+                <li><a href="home.html"></a>Home</li>
+                <li><a href="lotions.html"></a>Lotions</li>
+                <li><a href="locateUs.html"></a>Locate Us</li>
+                <li><a href="contactUs.html"></a>Contact Us</li>
+            </ul>
+            <img id="hamburgerMenu" src="images/hamburger_menu.png" alt="hamburger menu">
+          </nav>
+      </header>
+      <!-- Main nav end -->  
+
+      <!-- Main layout start-->
+      <main>
+      <section class="hero">
+        <h2 class="hidden">Hero Image</h2>
+        <div class="heroContent">
           <div class="heroImg">
             <img src="images/hero_image.png" alt="Hawaiian Tropic Zest Sunscreen Lotion on Beach">
           </div>
@@ -42,46 +49,52 @@
             <p>Hawaiian Tropic Zest citrus wheat sheer touch lotion sunscreen. Brewed with real orange and lemon peels, making for a light and refreshing choice for summer days. </p>
           </div>
           <a href="#">Shop here</a>
-        </section>
+        </div>
+      </section>
+      
+      <section class="ad">
+        <h2 class="hidden"> Product ad</h2>
+        <h1>LEARN MORE ABOUT FRESHLY BREWED BEER LOTIONS</h1>
+        <div class="product">
+          <img src="images/section_bg_left.png" alt="product image">
+        </div>
+        <div class="properties">
+          <img src="images/section_bg_right.png" alt="product properties">
+        </div>
+      </section>
 
-        <section class="ad">
-          <h2 class="hidden"> Product ad</h2>
-          <h1>LEARN MORE ABOUT FRESHLY BREWED BEER LOTIONS</h1>
-          <div class="product">
-            <img src="images/section_bg_left.png" alt="product image">
-          </div>
-          <div class="properties">
-            <h3>HAWAIIAN TROPIC ZEST</h3>
-            <img src="images/features.png" alt="product properties">
-            <img src="images/section_bg_right.png" alt="properties bg">
-          </div>
+      <section class="orderOnline">
+        <div class="orderText">
+          <h1>OUT OF HAWAIIAN TROPIC?</h1>
+        </div>
+      </section>
 
-        </section>
-        <section class="orderOnline">
-          <div class="orderText">
-            <h1>OUT OF HAWAIIAN TROPIC?</h1>
-          </div>
-        </section>
-        <section class="contactForm"></section>
+      <section class="contactForm">
 
-        <footer class="mainFooter">
-          <h2 class="hidden">Footer</h2>
-          <div>
-            <nav class="footerNav">
-              <h2 class="hidden"> Footer Nav </h2>
-              <ul>
-                <li><a href="home.html"></a>Home</li>
-                <li><a href="lotions.html"></a>Lotions</li>
-                <li><a href="locateUs.html"></a>Locate Us</li>
-                <li><a href="contactUs.html"></a>Contact Us</li>
-              </ul>
-            </nav>
-          </div>
-          <div class="footerLogo">
-            <img src="images/white_logo.png" alt="Footer Logo">
-          </div>
-        </footer> 
+      </section>
+      </main>
+      <!-- Main layout end -->
+
+      <!-- Footer start-->
+      <footer class="mainFooter">
+        <h2 class="hidden">Footer</h2>
+        <div>
+          <nav class="footerNav">
+            <h2 class="hidden"> Footer Nav </h2>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="lotions.html">Lotions</a></li>
+              <li><a href="locateUs.html">Locate Us</a></li>
+              <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footerLogo">
+          <img src="images/white_logo.png" alt="Footer Logo">
+        </div>
+      </footer>
+      <!-- Footer start-->
     </div>
     <script src="js/main.js"></script> 
-  </body>
+  </section>
 </html>
